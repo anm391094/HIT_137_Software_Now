@@ -1,0 +1,2 @@
+Station ID: 72150
+Temperature Range: 21.069999999999997
