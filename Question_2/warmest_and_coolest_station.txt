@@ -1,0 +1,2 @@
+Warmest Station: 4106 with Avg Temp: 41.47916666666667
+Coolest Station: 72161 with Avg Temp: 12.380833333333333
