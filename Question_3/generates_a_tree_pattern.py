@@ -20,7 +20,7 @@ def draw_tree(t, length, angle_left, angle_right, depth, scale, is_branch=False)
         scale (float): Factor by which each branch shrinks compared to its parent.
         is_branch (bool): Indicates whether the current segment is a branch (True) 
                           or part of the trunk/main stem (False). Can be used to change 
-                          appearance, like color or thickness.
+                          appearance, like color.
     """
 
     if depth == 0:
@@ -86,6 +86,10 @@ def main():
     except ValueError:
         print(f"Invalid input. Please enter numbers only.")
         return
+    
+    if depth == 0:
+        print(f"No more branches to draw.")
+        exit()
 
     screen = turtle.Screen()
     screen.bgcolor("white")
