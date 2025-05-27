@@ -30,3 +30,8 @@ def show_cropped_image(self, cropped_img):
     label.pack()
 self.start_x = self.start_y = 0
 self.rect = None
+
+self.canvas.bind("<ButtonPress-1>", self.on_mouse_down)
+self.canvas.bind("<B1-Motion>", self.on_mouse_drag)
+self.canvas.bind("<ButtonRelease-1>", self.on_mouse_up)
+
