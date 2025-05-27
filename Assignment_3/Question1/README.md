@@ -63,3 +63,6 @@ Each task was built as a separate Python file for clarity:
 ```bash
 pip install opencv-python pillow
 
+python3 app.py
+
+
