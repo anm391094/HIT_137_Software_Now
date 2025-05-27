@@ -28,3 +28,5 @@ def show_cropped_image(self, cropped_img):
     label = tk.Label(cropped_window, image=tk_crop)
     label.image = tk_crop
     label.pack()
+self.start_x = self.start_y = 0
+self.rect = None
