@@ -35,17 +35,17 @@ def load_image(image_path, size=None):
     return image
 
 # Load images
-fox_img = load_image('fox.png', (100, 100))
-hunter_img = load_image('hunter.png', (100, 100))
-berry_img = load_image('berry.png', (40, 40))
-feather_img = load_image('feather.png', (50, 50))
-projectile_img = load_image('projectile.png', (10, 5))
+fox_img = load_image('icons/fox.png', (100, 100))
+hunter_img = load_image('icons/hunter.png', (100, 100))
+berry_img = load_image('icons/berry.png', (40, 40))
+feather_img = load_image('icons/feather.png', (50, 50))
+projectile_img = load_image('icons/projectile.png', (10, 5))
 
 # Heart image (For lives)
-heart_img = load_image('heart.png', (30, 30))
+heart_img = load_image('icons/heart.png', (30, 30))
 
 # Background image
-background_img = load_image('background.jpg', (WIDTH, HEIGHT))
+background_img = load_image('icons/background.jpg', (WIDTH, HEIGHT))
 
 # Font for text
 font = pygame.font.SysFont("arial", 24)
