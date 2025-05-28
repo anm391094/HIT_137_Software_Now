@@ -203,7 +203,6 @@ This version is a working prototype, but there’s room for future enhancement:
 ## 👥 Contributors
 
 - **Group: CAS/DAN 10**
-  _Assignment 3 – Question 2, HIT137 SOFTWARE NOW_
 
 ---
 
